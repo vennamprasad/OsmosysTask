@@ -1,0 +1,3556 @@
+{
+  "data": {
+    "limit": 0,
+    "start": 0,
+    "nextStart": 0,
+    "records": [
+      {
+        "id": 67,
+        "name": "Supreme",
+        "createdOn": "2020-01-14T05:42:35.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": [],
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "251",
+            "packageID": 67,
+            "featureID": 19,
+            "createdBy": "1",
+            "createdOn": "2020-01-14T05:42:34.000Z",
+            "status": 1,
+            "feature": {
+              "id": 19,
+              "featureName": "Flat Screen TV",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "252",
+            "packageID": 67,
+            "featureID": 24,
+            "createdBy": "1",
+            "createdOn": "2020-01-14T05:42:34.000Z",
+            "status": 1,
+            "feature": {
+              "id": 24,
+              "featureName": "Mini Bar / Mini Fridge",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 66,
+        "name": "simple",
+        "createdOn": "2020-01-13T12:14:34.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 19,
+          "name": "Food court",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "249",
+            "packageID": 66,
+            "featureID": 24,
+            "createdBy": "1",
+            "createdOn": "2020-01-13T12:14:34.000Z",
+            "status": 1,
+            "feature": {
+              "id": 24,
+              "featureName": "Mini Bar / Mini Fridge",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "250",
+            "packageID": 66,
+            "featureID": 29,
+            "createdBy": "1",
+            "createdOn": "2020-01-13T12:14:34.000Z",
+            "status": 1,
+            "feature": {
+              "id": 29,
+              "featureName": "Newspaper",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 65,
+        "name": "Upgraded",
+        "createdOn": "2020-01-13T11:59:04.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": [],
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "247",
+            "packageID": 65,
+            "featureID": 19,
+            "createdBy": "1",
+            "createdOn": "2020-01-13T11:59:03.000Z",
+            "status": 1,
+            "feature": {
+              "id": 19,
+              "featureName": "Flat Screen TV",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "248",
+            "packageID": 65,
+            "featureID": 24,
+            "createdBy": "1",
+            "createdOn": "2020-01-13T11:59:03.000Z",
+            "status": 1,
+            "feature": {
+              "id": 24,
+              "featureName": "Mini Bar / Mini Fridge",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 64,
+        "name": "King",
+        "createdOn": "2020-01-13T11:58:12.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 30,
+          "name": "Open theatre",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "230",
+            "packageID": 64,
+            "featureID": 19,
+            "createdBy": "1",
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "status": 1,
+            "feature": {
+              "id": 19,
+              "featureName": "Flat Screen TV",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "231",
+            "packageID": 64,
+            "featureID": 20,
+            "createdBy": "1",
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "status": 1,
+            "feature": {
+              "id": 20,
+              "featureName": "Work Desk",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "232",
+            "packageID": 64,
+            "featureID": 21,
+            "createdBy": "1",
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "status": 1,
+            "feature": {
+              "id": 21,
+              "featureName": "Letter Head with Pen",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "233",
+            "packageID": 64,
+            "featureID": 23,
+            "createdBy": "1",
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "status": 1,
+            "feature": {
+              "id": 23,
+              "featureName": "Electronic Safe / Locker",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "234",
+            "packageID": 64,
+            "featureID": 24,
+            "createdBy": "1",
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "status": 1,
+            "feature": {
+              "id": 24,
+              "featureName": "Mini Bar / Mini Fridge",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "235",
+            "packageID": 64,
+            "featureID": 25,
+            "createdBy": "1",
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "status": 1,
+            "feature": {
+              "id": 25,
+              "featureName": "Tea / Coffee Maker",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "236",
+            "packageID": 64,
+            "featureID": 26,
+            "createdBy": "1",
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "status": 1,
+            "feature": {
+              "id": 26,
+              "featureName": "Ironing Board",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "237",
+            "packageID": 64,
+            "featureID": 27,
+            "createdBy": "1",
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "status": 1,
+            "feature": {
+              "id": 27,
+              "featureName": "Iron",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "238",
+            "packageID": 64,
+            "featureID": 28,
+            "createdBy": "1",
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "status": 1,
+            "feature": {
+              "id": 2,
+              "featureName": "Hair dryer",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "239",
+            "packageID": 64,
+            "featureID": 29,
+            "createdBy": "1",
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "status": 1,
+            "feature": {
+              "id": 29,
+              "featureName": "Newspaper",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "240",
+            "packageID": 64,
+            "featureID": 30,
+            "createdBy": "1",
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "status": 1,
+            "feature": {
+              "id": 30,
+              "featureName": "Mood lighting",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "241",
+            "packageID": 64,
+            "featureID": 31,
+            "createdBy": "1",
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "status": 1,
+            "feature": {
+              "id": 31,
+              "featureName": "Caleido - Air Quality Control",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 2
+            }
+          },
+          {
+            "id": "242",
+            "packageID": 64,
+            "featureID": 32,
+            "createdBy": "1",
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "status": 1,
+            "feature": {
+              "id": 32,
+              "featureName": "Caleido Smart Lock",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 4
+            }
+          },
+          {
+            "id": "243",
+            "packageID": 64,
+            "featureID": 33,
+            "createdBy": "1",
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "status": 1,
+            "feature": {
+              "id": 33,
+              "featureName": "Non-Smoking Rooms",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "244",
+            "packageID": 64,
+            "featureID": 34,
+            "createdBy": "1",
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "status": 1,
+            "feature": {
+              "id": 34,
+              "featureName": "Smoking Lounge",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "245",
+            "packageID": 64,
+            "featureID": 35,
+            "createdBy": "1",
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "status": 1,
+            "feature": {
+              "id": 35,
+              "featureName": "Pet Friendly",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "246",
+            "packageID": 64,
+            "featureID": 36,
+            "createdBy": "1",
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "status": 1,
+            "feature": {
+              "id": 36,
+              "featureName": "Doctor On Call",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": [
+          {
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "package": {
+              "id": 4,
+              "name": "Premium",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "package": {
+              "id": 5,
+              "name": "Avasa",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "package": {
+              "id": 7,
+              "name": "Restaurant",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "package": {
+              "id": 14,
+              "name": "suite plaza",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "package": {
+              "id": 16,
+              "name": "sub - lalalaa",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "package": {
+              "id": 18,
+              "name": "qqwwqq",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "package": {
+              "id": 19,
+              "name": "qqqqwwqq121",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "package": {
+              "id": 20,
+              "name": "qqqqwwqq1",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "package": {
+              "id": 21,
+              "name": "abcd",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "package": {
+              "id": 36,
+              "name": "sub package 2",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "package": {
+              "id": 47,
+              "name": "Sameer's sub",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "package": {
+              "id": 48,
+              "name": "Sameer's sub 1",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "package": {
+              "id": 49,
+              "name": "Sameer's sub 90",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2020-01-13T11:58:11.000Z",
+            "package": {
+              "id": 61,
+              "name": "Kids pool",
+              "isSubPackage": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 63,
+        "name": "upgrade package",
+        "createdOn": "2020-01-13T11:57:53.000Z",
+        "statusID": 0,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 30,
+          "name": "Open theatre",
+          "status": 1
+        },
+        "packageFeatures": [],
+        "childPackages": []
+      },
+      {
+        "id": 62,
+        "name": "delete pakage",
+        "createdOn": "2020-01-13T06:09:08.000Z",
+        "statusID": 0,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [],
+        "childPackages": []
+      },
+      {
+        "id": 61,
+        "name": "Kids pool",
+        "createdOn": "2020-01-10T18:23:12.000Z",
+        "statusID": 1,
+        "isSubPackage": 1,
+        "attachment": null,
+        "amenityType": {
+          "id": 12,
+          "name": "Swiming Pool",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "225",
+            "packageID": 61,
+            "featureID": 28,
+            "createdBy": "1",
+            "createdOn": "2020-01-10T18:23:12.000Z",
+            "status": 1,
+            "feature": {
+              "id": 28,
+              "featureName": "Hair dryer",
+              "status": 1,
+              "isSmartFeature": "null",
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 60,
+        "name": "Silver smart - Sravani",
+        "createdOn": "2020-01-10T18:22:53.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "226",
+            "packageID": 60,
+            "featureID": 32,
+            "createdBy": "1",
+            "createdOn": "2020-01-10T18:23:22.000Z",
+            "status": 1,
+            "feature": {
+              "id": 32,
+              "featureName": "Caleido Smart Lock",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 4
+            }
+          }
+        ],
+        "childPackages": [
+          {
+            "createdOn": "2020-01-10T18:23:22.000Z",
+            "package": {
+              "id": 61,
+              "name": "Kids pool",
+              "isSubPackage": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 59,
+        "name": "M-Super-Supreme",
+        "createdOn": "2020-01-10T18:21:44.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "218",
+            "packageID": 59,
+            "featureID": 19,
+            "createdBy": "1",
+            "createdOn": "2020-01-10T18:21:44.000Z",
+            "status": 1,
+            "feature": {
+              "id": 19,
+              "featureName": "Flat Screen TV",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "219",
+            "packageID": 59,
+            "featureID": 24,
+            "createdBy": "1",
+            "createdOn": "2020-01-10T18:21:44.000Z",
+            "status": 1,
+            "feature": {
+              "id": 24,
+              "featureName": "Mini Bar / Mini Fridge",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "220",
+            "packageID": 59,
+            "featureID": 25,
+            "createdBy": "1",
+            "createdOn": "2020-01-10T18:21:44.000Z",
+            "status": 1,
+            "feature": {
+              "id": 25,
+              "featureName": "Tea / Coffee Maker",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "221",
+            "packageID": 59,
+            "featureID": 29,
+            "createdBy": "1",
+            "createdOn": "2020-01-10T18:21:44.000Z",
+            "status": 1,
+            "feature": {
+              "id": 29,
+              "featureName": "Newspaper",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "222",
+            "packageID": 59,
+            "featureID": 32,
+            "createdBy": "1",
+            "createdOn": "2020-01-10T18:21:44.000Z",
+            "status": 1,
+            "feature": {
+              "id": 32,
+              "featureName": "Caleido Smart Lock",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 4
+            }
+          },
+          {
+            "id": "223",
+            "packageID": 59,
+            "featureID": 36,
+            "createdBy": "1",
+            "createdOn": "2020-01-10T18:21:44.000Z",
+            "status": 1,
+            "feature": {
+              "id": 36,
+              "featureName": "Doctor On Call",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 58,
+        "name": "Kids pool",
+        "createdOn": "2020-01-10T18:13:10.000Z",
+        "statusID": 0,
+        "isSubPackage": 1,
+        "attachment": null,
+        "amenityType": {
+          "id": 12,
+          "name": "Swiming Pool",
+          "status": 1
+        },
+        "packageFeatures": [],
+        "childPackages": []
+      },
+      {
+        "id": 57,
+        "name": "M-Supreme",
+        "createdOn": "2020-01-10T18:12:02.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "199",
+            "packageID": 57,
+            "featureID": 19,
+            "createdBy": "1",
+            "createdOn": "2020-01-10T18:12:01.000Z",
+            "status": 1,
+            "feature": {
+              "id": 19,
+              "featureName": "Flat Screen TV",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "200",
+            "packageID": 57,
+            "featureID": 32,
+            "createdBy": "1",
+            "createdOn": "2020-01-10T18:12:01.000Z",
+            "status": 1,
+            "feature": {
+              "id": 32,
+              "featureName": "Caleido Smart Lock",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 4
+            }
+          },
+          {
+            "id": "201",
+            "packageID": 57,
+            "featureID": 36,
+            "createdBy": "1",
+            "createdOn": "2020-01-10T18:12:01.000Z",
+            "status": 1,
+            "feature": {
+              "id": 36,
+              "featureName": "Doctor On Call",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": [
+          {
+            "createdOn": "2020-01-10T18:12:01.000Z",
+            "package": {
+              "id": 47,
+              "name": "Sameer's sub",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2020-01-10T18:12:01.000Z",
+            "package": {
+              "id": 48,
+              "name": "Sameer's sub 1",
+              "isSubPackage": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 56,
+        "name": "Silver Smart",
+        "createdOn": "2020-01-10T17:51:16.000Z",
+        "statusID": 0,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [],
+        "childPackages": []
+      },
+      {
+        "id": 55,
+        "name": "M-Package",
+        "createdOn": "2020-01-09T10:34:55.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "192",
+            "packageID": 55,
+            "featureID": 21,
+            "createdBy": "1",
+            "createdOn": "2020-01-09T10:34:54.000Z",
+            "status": 1,
+            "feature": {
+              "id": 21,
+              "featureName": "Letter Head with Pen",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "193",
+            "packageID": 55,
+            "featureID": 34,
+            "createdBy": "1",
+            "createdOn": "2020-01-09T10:34:54.000Z",
+            "status": 1,
+            "feature": {
+              "id": 34,
+              "featureName": "Smoking Lounge",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": [
+          {
+            "createdOn": "2020-01-09T10:34:54.000Z",
+            "package": {
+              "id": 4,
+              "name": "Premium",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2020-01-09T10:34:54.000Z",
+            "package": {
+              "id": 5,
+              "name": "Avasa",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2020-01-09T10:34:54.000Z",
+            "package": {
+              "id": 14,
+              "name": "suite plaza",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2020-01-09T10:34:54.000Z",
+            "package": {
+              "id": 49,
+              "name": "Sameer's sub 90",
+              "isSubPackage": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 54,
+        "name": "main-2",
+        "createdOn": "2020-01-09T05:20:37.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "190",
+            "packageID": 54,
+            "featureID": 32,
+            "createdBy": "1",
+            "createdOn": "2020-01-09T05:20:37.000Z",
+            "status": 1,
+            "feature": {
+              "id": 32,
+              "featureName": "Caleido Smart Lock",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 4
+            }
+          },
+          {
+            "id": "191",
+            "packageID": 54,
+            "featureID": 36,
+            "createdBy": "1",
+            "createdOn": "2020-01-09T05:20:37.000Z",
+            "status": 1,
+            "feature": {
+              "id": 36,
+              "featureName": "Doctor On Call",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 53,
+        "name": "main -1",
+        "createdOn": "2020-01-09T05:20:23.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "188",
+            "packageID": 53,
+            "featureID": 32,
+            "createdBy": "1",
+            "createdOn": "2020-01-09T05:20:23.000Z",
+            "status": 1,
+            "feature": {
+              "id": 32,
+              "featureName": "Caleido Smart Lock",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 4
+            }
+          },
+          {
+            "id": "189",
+            "packageID": 53,
+            "featureID": 36,
+            "createdBy": "1",
+            "createdOn": "2020-01-09T05:20:23.000Z",
+            "status": 1,
+            "feature": {
+              "id": 36,
+              "featureName": "Doctor On Call",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": [
+          {
+            "createdOn": "2020-01-09T05:20:23.000Z",
+            "package": {
+              "id": 5,
+              "name": "Avasa",
+              "isSubPackage": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 52,
+        "name": "no device pack",
+        "createdOn": "2020-01-08T12:59:27.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "184",
+            "packageID": 52,
+            "featureID": 20,
+            "createdBy": "1",
+            "createdOn": "2020-01-08T14:29:12.000Z",
+            "status": 1,
+            "feature": {
+              "id": 20,
+              "featureName": "Work Desk",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "185",
+            "packageID": 52,
+            "featureID": 25,
+            "createdBy": "1",
+            "createdOn": "2020-01-08T14:29:12.000Z",
+            "status": 1,
+            "feature": {
+              "id": 25,
+              "featureName": "Tea / Coffee Maker",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "186",
+            "packageID": 52,
+            "featureID": 26,
+            "createdBy": "1",
+            "createdOn": "2020-01-08T14:29:12.000Z",
+            "status": 1,
+            "feature": {
+              "id": 26,
+              "featureName": "Ironing Board",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "187",
+            "packageID": 52,
+            "featureID": 33,
+            "createdBy": "1",
+            "createdOn": "2020-01-08T14:29:12.000Z",
+            "status": 1,
+            "feature": {
+              "id": 33,
+              "featureName": "Non-Smoking Rooms",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 51,
+        "name": "Main package",
+        "createdOn": "2020-01-08T12:25:21.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "177",
+            "packageID": 51,
+            "featureID": 28,
+            "createdBy": "1",
+            "createdOn": "2020-01-08T12:25:21.000Z",
+            "status": 1,
+            "feature": {
+              "id": 28,
+              "featureName": "Hair dryer",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "178",
+            "packageID": 51,
+            "featureID": 32,
+            "createdBy": "1",
+            "createdOn": "2020-01-08T12:25:21.000Z",
+            "status": 1,
+            "feature": {
+              "id": 32,
+              "featureName": "Caleido Smart Lock",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 4
+            }
+          },
+          {
+            "id": "179",
+            "packageID": 51,
+            "featureID": 35,
+            "createdBy": "1",
+            "createdOn": "2020-01-08T12:25:21.000Z",
+            "status": 1,
+            "feature": {
+              "id": 35,
+              "featureName": "Pet Friendly",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": [
+          {
+            "createdOn": "2020-01-08T12:25:21.000Z",
+            "package": {
+              "id": 5,
+              "name": "Avasa",
+              "isSubPackage": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "coop",
+        "createdOn": "2020-01-08T05:40:23.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "174",
+            "packageID": 50,
+            "featureID": 28,
+            "createdBy": "1",
+            "createdOn": "2020-01-08T05:40:22.000Z",
+            "status": 1,
+            "feature": {
+              "id": 28,
+              "featureName": "Hair dryer",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "175",
+            "packageID": 50,
+            "featureID": 32,
+            "createdBy": "1",
+            "createdOn": "2020-01-08T05:40:22.000Z",
+            "status": 1,
+            "feature": {
+              "id": 32,
+              "featureName": "Caleido Smart Lock",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 4
+            }
+          },
+          {
+            "id": "176",
+            "packageID": 50,
+            "featureID": 36,
+            "createdBy": "1",
+            "createdOn": "2020-01-08T05:40:22.000Z",
+            "status": 1,
+            "feature": {
+              "id": 36,
+              "featureName": "Doctor On Call",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 49,
+        "name": "Sameer's sub 90",
+        "createdOn": "2020-01-07T19:45:17.000Z",
+        "statusID": 1,
+        "isSubPackage": 1,
+        "attachment": null,
+        "amenityType": {
+          "id": 19,
+          "name": "Food court",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "171",
+            "packageID": 49,
+            "featureID": 20,
+            "createdBy": "1",
+            "createdOn": "2020-01-07T19:57:35.000Z",
+            "status": 1,
+            "feature": {
+              "id": 20,
+              "featureName": "Work Desk",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "172",
+            "packageID": 49,
+            "featureID": 21,
+            "createdBy": "1",
+            "createdOn": "2020-01-07T19:57:35.000Z",
+            "status": 1,
+            "feature": {
+              "id": 21,
+              "featureName": "Letter Head with Pen",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "173",
+            "packageID": 49,
+            "featureID": 33,
+            "createdBy": "1",
+            "createdOn": "2020-01-07T19:57:35.000Z",
+            "status": 1,
+            "feature": {
+              "id": 33,
+              "featureName": "Non-Smoking Rooms",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 48,
+        "name": "Sameer's sub 1",
+        "createdOn": "2020-01-07T19:41:48.000Z",
+        "statusID": 1,
+        "isSubPackage": 1,
+        "attachment": null,
+        "amenityType": {
+          "id": 21,
+          "name": "Jewellery shop",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "161",
+            "packageID": 48,
+            "featureID": 20,
+            "createdBy": "1",
+            "createdOn": "2020-01-07T19:41:47.000Z",
+            "status": 1,
+            "feature": {
+              "id": 20,
+              "featureName": "Work Desk",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "162",
+            "packageID": 48,
+            "featureID": 26,
+            "createdBy": "1",
+            "createdOn": "2020-01-07T19:41:47.000Z",
+            "status": 1,
+            "feature": {
+              "id": 26,
+              "featureName": "Ironing Board",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "163",
+            "packageID": 48,
+            "featureID": 33,
+            "createdBy": "1",
+            "createdOn": "2020-01-07T19:41:47.000Z",
+            "status": 1,
+            "feature": {
+              "id": 33,
+              "featureName": "Non-Smoking Rooms",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 47,
+        "name": "Sameer's sub",
+        "createdOn": "2020-01-07T19:41:08.000Z",
+        "statusID": 1,
+        "isSubPackage": 1,
+        "attachment": null,
+        "amenityType": {
+          "id": 3,
+          "name": "Library",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "159",
+            "packageID": 47,
+            "featureID": 20,
+            "createdBy": "1",
+            "createdOn": "2020-01-07T19:41:07.000Z",
+            "status": 1,
+            "feature": {
+              "id": 20,
+              "featureName": "Work Desk",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "160",
+            "packageID": 47,
+            "featureID": 33,
+            "createdBy": "1",
+            "createdOn": "2020-01-07T19:41:07.000Z",
+            "status": 1,
+            "feature": {
+              "id": 33,
+              "featureName": "Non-Smoking Rooms",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 46,
+        "name": "Sameer's Pack 6",
+        "createdOn": "2020-01-07T19:40:53.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 14,
+          "name": "Conference room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "169",
+            "packageID": 46,
+            "featureID": 20,
+            "createdBy": "1",
+            "createdOn": "2020-01-07T19:54:26.000Z",
+            "status": 1,
+            "feature": {
+              "id": 20,
+              "featureName": "Work Desk",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "170",
+            "packageID": 46,
+            "featureID": 33,
+            "createdBy": "1",
+            "createdOn": "2020-01-07T19:54:26.000Z",
+            "status": 1,
+            "feature": {
+              "id": 33,
+              "featureName": "Non-Smoking Rooms",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": [
+          {
+            "createdOn": "2020-01-07T19:54:26.000Z",
+            "package": {
+              "id": 5,
+              "name": "Avasa",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2020-01-07T19:54:26.000Z",
+            "package": {
+              "id": 7,
+              "name": "Restaurant",
+              "isSubPackage": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "Sameer's Pack 2",
+        "createdOn": "2020-01-07T19:36:59.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 21,
+          "name": "Jewellery shop",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "155",
+            "packageID": 45,
+            "featureID": 20,
+            "createdBy": "1",
+            "createdOn": "2020-01-07T19:36:58.000Z",
+            "status": 1,
+            "feature": {
+              "id": 20,
+              "featureName": "Work Desk",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "156",
+            "packageID": 45,
+            "featureID": 25,
+            "createdBy": "1",
+            "createdOn": "2020-01-07T19:36:58.000Z",
+            "status": 1,
+            "feature": {
+              "id": 25,
+              "featureName": "Tea / Coffee Maker",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": [
+          {
+            "createdOn": "2020-01-07T19:36:58.000Z",
+            "package": {
+              "id": 21,
+              "name": "abcd",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2020-01-07T19:36:58.000Z",
+            "package": {
+              "id": 36,
+              "name": "sub package 2",
+              "isSubPackage": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "name": "Sameer's Pack",
+        "createdOn": "2020-01-07T19:33:36.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 19,
+          "name": "Food court",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "154",
+            "packageID": 44,
+            "featureID": 25,
+            "createdBy": "1",
+            "createdOn": "2020-01-07T19:33:35.000Z",
+            "status": 1,
+            "feature": {
+              "id": 25,
+              "featureName": "Tea / Coffee Maker",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": [
+          {
+            "createdOn": "2020-01-07T19:33:35.000Z",
+            "package": {
+              "id": 36,
+              "name": "sub package 2",
+              "isSubPackage": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "name": "Algorithm",
+        "createdOn": "2020-01-07T06:00:18.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": {
+          "id": "257",
+          "fileName": "hnwdvaLR.png",
+          "filePath": "files\\attachment\\hnwdvaLR.png",
+          "createdOn": "2020-01-07T06:00:17.000Z",
+          "attachmentLink": "http://183.82.96.65:6971/static/attachment/hnwdvaLR.png"
+        },
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "142",
+            "packageID": 43,
+            "featureID": 27,
+            "createdBy": "1",
+            "createdOn": "2020-01-07T06:00:17.000Z",
+            "status": 1,
+            "feature": {
+              "id": 27,
+              "featureName": "Iron",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "143",
+            "packageID": 43,
+            "featureID": 34,
+            "createdBy": "1",
+            "createdOn": "2020-01-07T06:00:17.000Z",
+            "status": 1,
+            "feature": {
+              "id": 34,
+              "featureName": "Smoking Lounge",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 42,
+        "name": "This",
+        "createdOn": "2020-01-02T16:58:28.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 27,
+          "name": "Banquete hall",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "144",
+            "packageID": 42,
+            "featureID": 23,
+            "createdBy": "1",
+            "createdOn": "2020-01-07T19:23:30.000Z",
+            "status": 1,
+            "feature": {
+              "id": 23,
+              "featureName": "Electronic Safe / Locker",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "145",
+            "packageID": 42,
+            "featureID": 27,
+            "createdBy": "1",
+            "createdOn": "2020-01-07T19:23:30.000Z",
+            "status": 1,
+            "feature": {
+              "id": 27,
+              "featureName": "Iron",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "146",
+            "packageID": 42,
+            "featureID": 28,
+            "createdBy": "1",
+            "createdOn": "2020-01-07T19:23:30.000Z",
+            "status": 1,
+            "feature": {
+              "id": 28,
+              "featureName": "Hair dryer",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "147",
+            "packageID": 42,
+            "featureID": 31,
+            "createdBy": "1",
+            "createdOn": "2020-01-07T19:23:30.000Z",
+            "status": 1,
+            "feature": {
+              "id": 31,
+              "featureName": "Caleido - Air Quality Control",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 2
+            }
+          },
+          {
+            "id": "148",
+            "packageID": 42,
+            "featureID": 32,
+            "createdBy": "1",
+            "createdOn": "2020-01-07T19:23:30.000Z",
+            "status": 1,
+            "feature": {
+              "id": 32,
+              "featureName": "Caleido Smart Lock",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 4
+            }
+          },
+          {
+            "id": "149",
+            "packageID": 42,
+            "featureID": 34,
+            "createdBy": "1",
+            "createdOn": "2020-01-07T19:23:30.000Z",
+            "status": 1,
+            "feature": {
+              "id": 34,
+              "featureName": "Smoking Lounge",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "150",
+            "packageID": 42,
+            "featureID": 36,
+            "createdBy": "1",
+            "createdOn": "2020-01-07T19:23:30.000Z",
+            "status": 1,
+            "feature": {
+              "id": 36,
+              "featureName": "Doctor On Call",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": [
+          {
+            "createdOn": "2020-01-07T19:23:30.000Z",
+            "package": {
+              "id": 4,
+              "name": "Premium",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2020-01-07T19:23:30.000Z",
+            "package": {
+              "id": 5,
+              "name": "Avasa",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2020-01-07T19:23:30.000Z",
+            "package": {
+              "id": 7,
+              "name": "Restaurant",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2020-01-07T19:23:30.000Z",
+            "package": {
+              "id": 14,
+              "name": "suite plaza",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2020-01-07T19:23:30.000Z",
+            "package": {
+              "id": 16,
+              "name": "sub - lalalaa",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2020-01-07T19:23:30.000Z",
+            "package": {
+              "id": 21,
+              "name": "abcd",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2020-01-07T19:23:30.000Z",
+            "package": {
+              "id": 36,
+              "name": "sub package 2",
+              "isSubPackage": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "name": "1231",
+        "createdOn": "2020-01-02T14:08:53.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "133",
+            "packageID": 41,
+            "featureID": 27,
+            "createdBy": "1",
+            "createdOn": "2020-01-02T14:08:52.000Z",
+            "status": 1,
+            "feature": {
+              "id": 27,
+              "featureName": "Iron",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "134",
+            "packageID": 41,
+            "featureID": 34,
+            "createdBy": "1",
+            "createdOn": "2020-01-02T14:08:52.000Z",
+            "status": 1,
+            "feature": {
+              "id": 34,
+              "featureName": "Smoking Lounge",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 40,
+        "name": "test booking",
+        "createdOn": "2020-01-02T09:40:56.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 21,
+          "name": "Jewellery shop",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "132",
+            "packageID": 40,
+            "featureID": 34,
+            "createdBy": "1",
+            "createdOn": "2020-01-02T09:40:56.000Z",
+            "status": 1,
+            "feature": {
+              "id": 34,
+              "featureName": "Smoking Lounge",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 39,
+        "name": "Restro",
+        "createdOn": "2020-01-02T08:49:43.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 6,
+          "name": "Restaurant",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "131",
+            "packageID": 39,
+            "featureID": 34,
+            "createdBy": "1",
+            "createdOn": "2020-01-02T08:49:43.000Z",
+            "status": 1,
+            "feature": {
+              "id": 34,
+              "featureName": "Smoking Lounge",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 38,
+        "name": "test for delete",
+        "createdOn": "2020-01-02T05:09:06.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 21,
+          "name": "Jewellery shop",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "130",
+            "packageID": 38,
+            "featureID": 34,
+            "createdBy": "1",
+            "createdOn": "2020-01-02T05:09:06.000Z",
+            "status": 1,
+            "feature": {
+              "id": 34,
+              "featureName": "Smoking Lounge",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 37,
+        "name": "sdf",
+        "createdOn": "2020-01-02T05:05:50.000Z",
+        "statusID": 0,
+        "isSubPackage": 1,
+        "attachment": null,
+        "amenityType": {
+          "id": 19,
+          "name": "Food court",
+          "status": 1
+        },
+        "packageFeatures": [],
+        "childPackages": []
+      },
+      {
+        "id": 36,
+        "name": "sub package 2",
+        "createdOn": "2019-12-31T13:01:24.000Z",
+        "statusID": 1,
+        "isSubPackage": 1,
+        "attachment": null,
+        "amenityType": {
+          "id": 19,
+          "name": "Food court",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "151",
+            "packageID": 36,
+            "featureID": 28,
+            "createdBy": "1",
+            "createdOn": "2020-01-07T19:29:48.000Z",
+            "status": 1,
+            "feature": {
+              "id": 28,
+              "featureName": "Hair dryer",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "152",
+            "packageID": 36,
+            "featureID": 31,
+            "createdBy": "1",
+            "createdOn": "2020-01-07T19:29:48.000Z",
+            "status": 1,
+            "feature": {
+              "id": 31,
+              "featureName": "Caleido - Air Quality Control",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 2
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 35,
+        "name": "afasdf",
+        "createdOn": "2019-12-31T12:03:03.000Z",
+        "statusID": 0,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": null,
+        "packageFeatures": [],
+        "childPackages": []
+      },
+      {
+        "id": 34,
+        "name": "sub package 1",
+        "createdOn": "2019-12-31T12:02:57.000Z",
+        "statusID": 0,
+        "isSubPackage": 1,
+        "attachment": null,
+        "amenityType": null,
+        "packageFeatures": [],
+        "childPackages": []
+      },
+      {
+        "id": 33,
+        "name": "sub package 2",
+        "createdOn": "2019-12-31T11:52:41.000Z",
+        "statusID": 0,
+        "isSubPackage": 1,
+        "attachment": null,
+        "amenityType": {
+          "id": 19,
+          "name": "Food court",
+          "status": 1
+        },
+        "packageFeatures": [],
+        "childPackages": []
+      },
+      {
+        "id": 32,
+        "name": "sub package 1",
+        "createdOn": "2019-12-31T11:46:28.000Z",
+        "statusID": 0,
+        "isSubPackage": 1,
+        "attachment": null,
+        "amenityType": null,
+        "packageFeatures": [],
+        "childPackages": []
+      },
+      {
+        "id": 31,
+        "name": "sub package 1",
+        "createdOn": "2019-12-31T11:44:32.000Z",
+        "statusID": 0,
+        "isSubPackage": 1,
+        "attachment": null,
+        "amenityType": {
+          "id": 4,
+          "name": "Gym",
+          "status": 1
+        },
+        "packageFeatures": [],
+        "childPackages": []
+      },
+      {
+        "id": 30,
+        "name": "test3666",
+        "createdOn": "2019-12-31T10:25:49.000Z",
+        "statusID": 0,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 11,
+          "name": "Play Area",
+          "status": 1
+        },
+        "packageFeatures": [],
+        "childPackages": []
+      },
+      {
+        "id": 29,
+        "name": "test123",
+        "createdOn": "2019-12-31T10:06:36.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 21,
+          "name": "Jewellery shop",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "100",
+            "packageID": 29,
+            "featureID": 34,
+            "createdBy": "1",
+            "createdOn": "2019-12-31T10:06:35.000Z",
+            "status": 1,
+            "feature": {
+              "id": 34,
+              "featureName": "Smoking Lounge",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 28,
+        "name": "pack",
+        "createdOn": "2019-12-30T12:32:14.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 6,
+          "name": "Restaurant",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "99",
+            "packageID": 28,
+            "featureID": 34,
+            "createdBy": "1",
+            "createdOn": "2019-12-30T12:32:13.000Z",
+            "status": 1,
+            "feature": {
+              "id": 34,
+              "featureName": "Smoking Lounge",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 27,
+        "name": "Non smart package",
+        "createdOn": "2019-12-30T06:54:12.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "98",
+            "packageID": 27,
+            "featureID": 34,
+            "createdBy": "1",
+            "createdOn": "2019-12-30T06:54:12.000Z",
+            "status": 1,
+            "feature": {
+              "id": 34,
+              "featureName": "Smoking Lounge",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 26,
+        "name": "Non smart package",
+        "createdOn": "2019-12-30T06:52:54.000Z",
+        "statusID": 0,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 11,
+          "name": "Play Area",
+          "status": 1
+        },
+        "packageFeatures": [],
+        "childPackages": []
+      },
+      {
+        "id": 25,
+        "name": "No Package",
+        "createdOn": "2019-12-30T06:07:09.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "96",
+            "packageID": 25,
+            "featureID": 27,
+            "createdBy": "1",
+            "createdOn": "2019-12-30T06:07:09.000Z",
+            "status": 1,
+            "feature": {
+              "id": 27,
+              "featureName": "Iron",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": [
+          {
+            "createdOn": "2019-12-30T06:07:09.000Z",
+            "package": {
+              "id": 18,
+              "name": "qqwwqq",
+              "isSubPackage": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Spa12321231",
+        "createdOn": "2019-12-26T09:27:37.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 12,
+          "name": "Swiming Pool",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "95",
+            "packageID": 24,
+            "featureID": 27,
+            "createdBy": "1",
+            "createdOn": "2019-12-26T09:27:37.000Z",
+            "status": 1,
+            "feature": {
+              "id": 27,
+              "featureName": "Iron",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 23,
+        "name": "swimming -1",
+        "createdOn": "2019-12-26T09:25:32.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 12,
+          "name": "Swiming Pool",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "94",
+            "packageID": 23,
+            "featureID": 34,
+            "createdBy": "1",
+            "createdOn": "2019-12-26T09:25:32.000Z",
+            "status": 1,
+            "feature": {
+              "id": 34,
+              "featureName": "Smoking Lounge",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 22,
+        "name": "test",
+        "createdOn": "2019-12-26T05:15:06.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "92",
+            "packageID": 22,
+            "featureID": 27,
+            "createdBy": "1",
+            "createdOn": "2019-12-26T05:15:06.000Z",
+            "status": 1,
+            "feature": {
+              "id": 27,
+              "featureName": "Iron",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "93",
+            "packageID": 22,
+            "featureID": 31,
+            "createdBy": "1",
+            "createdOn": "2019-12-26T05:15:06.000Z",
+            "status": 1,
+            "feature": {
+              "id": 31,
+              "featureName": "Caleido - Air Quality Control",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 2
+            }
+          }
+        ],
+        "childPackages": [
+          {
+            "createdOn": "2019-12-26T05:15:06.000Z",
+            "package": {
+              "id": 18,
+              "name": "qqwwqq",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2019-12-26T05:15:06.000Z",
+            "package": {
+              "id": 19,
+              "name": "qqqqwwqq121",
+              "isSubPackage": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "abcd",
+        "createdOn": "2019-12-24T12:04:23.000Z",
+        "statusID": 1,
+        "isSubPackage": 1,
+        "attachment": null,
+        "amenityType": {
+          "id": 6,
+          "name": "Restaurant",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "91",
+            "packageID": 21,
+            "featureID": 34,
+            "createdBy": "1",
+            "createdOn": "2019-12-24T12:14:20.000Z",
+            "status": 1,
+            "feature": {
+              "id": 34,
+              "featureName": "Smoking Lounge",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 20,
+        "name": "qqqqwwqq1",
+        "createdOn": "2019-12-24T12:04:23.000Z",
+        "statusID": 1,
+        "isSubPackage": 1,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "86",
+            "packageID": 20,
+            "featureID": 34,
+            "createdBy": "1",
+            "createdOn": "2019-12-24T12:06:57.000Z",
+            "status": 1,
+            "feature": {
+              "id": 34,
+              "featureName": "Smoking Lounge",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 19,
+        "name": "qqqqwwqq121",
+        "createdOn": "2019-12-24T12:04:23.000Z",
+        "statusID": 1,
+        "isSubPackage": 1,
+        "attachment": null,
+        "amenityType": {
+          "id": 6,
+          "name": "Restaurant",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "153",
+            "packageID": 19,
+            "featureID": 34,
+            "createdBy": "1",
+            "createdOn": "2020-01-07T19:29:58.000Z",
+            "status": 1,
+            "feature": {
+              "id": 34,
+              "featureName": "Smoking Lounge",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 18,
+        "name": "qqwwqq",
+        "createdOn": "2019-12-24T12:04:23.000Z",
+        "statusID": 1,
+        "isSubPackage": 1,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "83",
+            "packageID": 18,
+            "featureID": 34,
+            "createdBy": "1",
+            "createdOn": "2019-12-24T12:04:23.000Z",
+            "status": 1,
+            "feature": {
+              "id": 34,
+              "featureName": "Smoking Lounge",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 17,
+        "name": "asda111",
+        "createdOn": "2019-12-24T10:59:27.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "89",
+            "packageID": 17,
+            "featureID": 34,
+            "createdBy": "1",
+            "createdOn": "2019-12-24T12:08:13.000Z",
+            "status": 1,
+            "feature": {
+              "id": 34,
+              "featureName": "Smoking Lounge",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 16,
+        "name": "sub - lalalaa",
+        "createdOn": "2019-12-24T10:57:56.000Z",
+        "statusID": 1,
+        "isSubPackage": 1,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "81",
+            "packageID": 16,
+            "featureID": 34,
+            "createdBy": "1",
+            "createdOn": "2019-12-24T10:57:56.000Z",
+            "status": 1,
+            "feature": {
+              "id": 34,
+              "featureName": "Smoking Lounge",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 15,
+        "name": "Delux",
+        "createdOn": "2019-12-24T09:29:16.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "74",
+            "packageID": 15,
+            "featureID": 23,
+            "createdBy": "1",
+            "createdOn": "2019-12-24T09:55:05.000Z",
+            "status": 1,
+            "feature": {
+              "id": 23,
+              "featureName": "Electronic Safe / Locker",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "75",
+            "packageID": 15,
+            "featureID": 27,
+            "createdBy": "1",
+            "createdOn": "2019-12-24T09:55:05.000Z",
+            "status": 1,
+            "feature": {
+              "id": 27,
+              "featureName": "Iron",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "76",
+            "packageID": 15,
+            "featureID": 28,
+            "createdBy": "1",
+            "createdOn": "2019-12-24T09:55:05.000Z",
+            "status": 1,
+            "feature": {
+              "id": 28,
+              "featureName": "Hair dryer",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "77",
+            "packageID": 15,
+            "featureID": 31,
+            "createdBy": "1",
+            "createdOn": "2019-12-24T09:55:05.000Z",
+            "status": 1,
+            "feature": {
+              "id": 31,
+              "featureName": "Caleido - Air Quality Control",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 2
+            }
+          },
+          {
+            "id": "78",
+            "packageID": 15,
+            "featureID": 32,
+            "createdBy": "1",
+            "createdOn": "2019-12-24T09:55:05.000Z",
+            "status": 1,
+            "feature": {
+              "id": 32,
+              "featureName": "Caleido Smart Lock",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 4
+            }
+          },
+          {
+            "id": "79",
+            "packageID": 15,
+            "featureID": 34,
+            "createdBy": "1",
+            "createdOn": "2019-12-24T09:55:05.000Z",
+            "status": 1,
+            "feature": {
+              "id": 34,
+              "featureName": "Smoking Lounge",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "80",
+            "packageID": 15,
+            "featureID": 36,
+            "createdBy": "1",
+            "createdOn": "2019-12-24T09:55:05.000Z",
+            "status": 1,
+            "feature": {
+              "id": 36,
+              "featureName": "Doctor On Call",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": [
+          {
+            "createdOn": "2019-12-24T09:55:05.000Z",
+            "package": {
+              "id": 5,
+              "name": "Avasa",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2019-12-24T09:55:05.000Z",
+            "package": {
+              "id": 7,
+              "name": "Restaurant",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2019-12-24T09:55:05.000Z",
+            "package": {
+              "id": 14,
+              "name": "suite plaza",
+              "isSubPackage": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "suite plaza",
+        "createdOn": "2019-12-24T09:23:31.000Z",
+        "statusID": 1,
+        "isSubPackage": 1,
+        "attachment": {
+          "id": "90",
+          "fileName": "90Zv9VEZ.jpg",
+          "filePath": "files\\attachment\\90Zv9VEZ.jpg",
+          "createdOn": "2019-12-24T09:23:30.000Z",
+          "attachmentLink": "http://183.82.96.65:6971/static/attachment/90Zv9VEZ.jpg"
+        },
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "65",
+            "packageID": 14,
+            "featureID": 31,
+            "createdBy": "1",
+            "createdOn": "2019-12-24T09:23:30.000Z",
+            "status": 1,
+            "feature": {
+              "id": 31,
+              "featureName": "Caleido - Air Quality Control",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 2
+            }
+          },
+          {
+            "id": "66",
+            "packageID": 14,
+            "featureID": 32,
+            "createdBy": "1",
+            "createdOn": "2019-12-24T09:23:30.000Z",
+            "status": 1,
+            "feature": {
+              "id": 32,
+              "featureName": "Caleido Smart Lock",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 4
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 13,
+        "name": "holjh",
+        "createdOn": "2019-12-23T15:16:16.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "58",
+            "packageID": 13,
+            "featureID": 23,
+            "createdBy": "1",
+            "createdOn": "2019-12-23T15:16:17.000Z",
+            "status": 1,
+            "feature": {
+              "id": 23,
+              "featureName": "Electronic Safe / Locker",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "59",
+            "packageID": 13,
+            "featureID": 27,
+            "createdBy": "1",
+            "createdOn": "2019-12-23T15:16:17.000Z",
+            "status": 1,
+            "feature": {
+              "id": 27,
+              "featureName": "Iron",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "60",
+            "packageID": 13,
+            "featureID": 28,
+            "createdBy": "1",
+            "createdOn": "2019-12-23T15:16:17.000Z",
+            "status": 1,
+            "feature": {
+              "id": 28,
+              "featureName": "Hair dryer",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "61",
+            "packageID": 13,
+            "featureID": 31,
+            "createdBy": "1",
+            "createdOn": "2019-12-23T15:16:17.000Z",
+            "status": 1,
+            "feature": {
+              "id": 31,
+              "featureName": "Caleido - Air Quality Control",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 2
+            }
+          },
+          {
+            "id": "62",
+            "packageID": 13,
+            "featureID": 32,
+            "createdBy": "1",
+            "createdOn": "2019-12-23T15:16:17.000Z",
+            "status": 1,
+            "feature": {
+              "id": 32,
+              "featureName": "Caleido Smart Lock",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 4
+            }
+          },
+          {
+            "id": "63",
+            "packageID": 13,
+            "featureID": 34,
+            "createdBy": "1",
+            "createdOn": "2019-12-23T15:16:17.000Z",
+            "status": 1,
+            "feature": {
+              "id": 34,
+              "featureName": "Smoking Lounge",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "64",
+            "packageID": 13,
+            "featureID": 36,
+            "createdBy": "1",
+            "createdOn": "2019-12-23T15:16:17.000Z",
+            "status": 1,
+            "feature": {
+              "id": 36,
+              "featureName": "Doctor On Call",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": [
+          {
+            "createdOn": "2019-12-23T15:16:17.000Z",
+            "package": {
+              "id": 4,
+              "name": "Premium",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2019-12-23T15:16:17.000Z",
+            "package": {
+              "id": 5,
+              "name": "Avasa",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2019-12-23T15:16:17.000Z",
+            "package": {
+              "id": 7,
+              "name": "Restaurant",
+              "isSubPackage": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Demo user - 1",
+        "createdOn": "2019-12-23T09:50:01.000Z",
+        "statusID": 0,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [],
+        "childPackages": []
+      },
+      {
+        "id": 11,
+        "name": "super pack",
+        "createdOn": "2019-12-23T05:25:19.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 6,
+          "name": "Restaurant",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "49",
+            "packageID": 11,
+            "featureID": 23,
+            "createdBy": "1",
+            "createdOn": "2019-12-23T05:27:18.000Z",
+            "status": 1,
+            "feature": {
+              "id": 23,
+              "featureName": "Electronic Safe / Locker",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "50",
+            "packageID": 11,
+            "featureID": 27,
+            "createdBy": "1",
+            "createdOn": "2019-12-23T05:27:18.000Z",
+            "status": 1,
+            "feature": {
+              "id": 27,
+              "featureName": "Iron",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "51",
+            "packageID": 11,
+            "featureID": 28,
+            "createdBy": "1",
+            "createdOn": "2019-12-23T05:27:18.000Z",
+            "status": 1,
+            "feature": {
+              "id": 28,
+              "featureName": "Hair dryer",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "52",
+            "packageID": 11,
+            "featureID": 31,
+            "createdBy": "1",
+            "createdOn": "2019-12-23T05:27:18.000Z",
+            "status": 1,
+            "feature": {
+              "id": 31,
+              "featureName": "Caleido - Air Quality Control",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 2
+            }
+          },
+          {
+            "id": "53",
+            "packageID": 11,
+            "featureID": 32,
+            "createdBy": "1",
+            "createdOn": "2019-12-23T05:27:18.000Z",
+            "status": 1,
+            "feature": {
+              "id": 32,
+              "featureName": "Caleido Smart Lock",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 4
+            }
+          },
+          {
+            "id": "54",
+            "packageID": 11,
+            "featureID": 34,
+            "createdBy": "1",
+            "createdOn": "2019-12-23T05:27:18.000Z",
+            "status": 1,
+            "feature": {
+              "id": 34,
+              "featureName": "Smoking Lounge",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "55",
+            "packageID": 11,
+            "featureID": 36,
+            "createdBy": "1",
+            "createdOn": "2019-12-23T05:27:18.000Z",
+            "status": 1,
+            "feature": {
+              "id": 36,
+              "featureName": "Doctor On Call",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": [
+          {
+            "createdOn": "2019-12-23T05:27:18.000Z",
+            "package": {
+              "id": 4,
+              "name": "Premium",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2019-12-23T05:27:18.000Z",
+            "package": {
+              "id": 5,
+              "name": "Avasa",
+              "isSubPackage": 1
+            }
+          },
+          {
+            "createdOn": "2019-12-23T05:27:18.000Z",
+            "package": {
+              "id": 7,
+              "name": "Restaurant",
+              "isSubPackage": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Super pack",
+        "createdOn": "2019-12-23T05:23:19.000Z",
+        "statusID": 0,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [],
+        "childPackages": []
+      },
+      {
+        "id": 9,
+        "name": "Don't Delete Me",
+        "createdOn": "2019-12-18T05:31:57.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "21",
+            "packageID": 9,
+            "featureID": 23,
+            "createdBy": "1",
+            "createdOn": "2019-12-18T05:31:56.000Z",
+            "status": 1,
+            "feature": {
+              "id": 23,
+              "featureName": "Electronic Safe / Locker",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "22",
+            "packageID": 9,
+            "featureID": 28,
+            "createdBy": "1",
+            "createdOn": "2019-12-18T05:31:57.000Z",
+            "status": 1,
+            "feature": {
+              "id": 28,
+              "featureName": "Hair dryer",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "23",
+            "packageID": 9,
+            "featureID": 31,
+            "createdBy": "1",
+            "createdOn": "2019-12-18T05:31:57.000Z",
+            "status": 1,
+            "feature": {
+              "id": 31,
+              "featureName": "Caleido - Air Quality Control",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 2
+            }
+          },
+          {
+            "id": "24",
+            "packageID": 9,
+            "featureID": 34,
+            "createdBy": "1",
+            "createdOn": "2019-12-18T05:31:57.000Z",
+            "status": 1,
+            "feature": {
+              "id": 34,
+              "featureName": "Smoking Lounge",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": [
+          {
+            "createdOn": "2019-12-18T05:31:56.000Z",
+            "package": {
+              "id": 7,
+              "name": "Restaurant",
+              "isSubPackage": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Random",
+        "createdOn": "2019-12-18T04:44:48.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "19",
+            "packageID": 8,
+            "featureID": 23,
+            "createdBy": "1",
+            "createdOn": "2019-12-18T04:44:48.000Z",
+            "status": 1,
+            "feature": {
+              "id": 23,
+              "featureName": "Electronic Safe / Locker",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "20",
+            "packageID": 8,
+            "featureID": 28,
+            "createdBy": "1",
+            "createdOn": "2019-12-18T04:44:48.000Z",
+            "status": 1,
+            "feature": {
+              "id": 28,
+              "featureName": "Hair dryer",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": [
+          {
+            "createdOn": "2019-12-18T04:44:48.000Z",
+            "package": {
+              "id": 7,
+              "name": "Restaurant",
+              "isSubPackage": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Restaurant",
+        "createdOn": "2019-12-18T04:44:35.000Z",
+        "statusID": 1,
+        "isSubPackage": 1,
+        "attachment": null,
+        "amenityType": {
+          "id": 6,
+          "name": "Restaurant",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "17",
+            "packageID": 7,
+            "featureID": 23,
+            "createdBy": "1",
+            "createdOn": "2019-12-18T04:44:34.000Z",
+            "status": 1,
+            "feature": {
+              "id": 23,
+              "featureName": "Electronic Safe / Locker",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "18",
+            "packageID": 7,
+            "featureID": 28,
+            "createdBy": "1",
+            "createdOn": "2019-12-18T04:44:34.000Z",
+            "status": 1,
+            "feature": {
+              "id": 28,
+              "featureName": "Hair dryer",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 6,
+        "name": "Gold Package",
+        "createdOn": "2019-12-18T04:40:30.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "14",
+            "packageID": 6,
+            "featureID": 23,
+            "createdBy": "1",
+            "createdOn": "2019-12-18T04:40:29.000Z",
+            "status": 1,
+            "feature": {
+              "id": 23,
+              "featureName": "Electronic Safe / Locker",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "15",
+            "packageID": 6,
+            "featureID": 31,
+            "createdBy": "1",
+            "createdOn": "2019-12-18T04:40:29.000Z",
+            "status": 1,
+            "feature": {
+              "id": 31,
+              "featureName": "Caleido - Air Quality Control",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 2
+            }
+          },
+          {
+            "id": "16",
+            "packageID": 6,
+            "featureID": 36,
+            "createdBy": "1",
+            "createdOn": "2019-12-18T04:40:29.000Z",
+            "status": 1,
+            "feature": {
+              "id": 36,
+              "featureName": "Doctor On Call",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": [
+          {
+            "createdOn": "2019-12-18T04:40:29.000Z",
+            "package": {
+              "id": 5,
+              "name": "Avasa",
+              "isSubPackage": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Avasa",
+        "createdOn": "2019-12-18T04:40:18.000Z",
+        "statusID": 1,
+        "isSubPackage": 1,
+        "attachment": null,
+        "amenityType": {
+          "id": 6,
+          "name": "Restaurant",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "13",
+            "packageID": 5,
+            "featureID": 32,
+            "createdBy": "1",
+            "createdOn": "2019-12-18T04:40:18.000Z",
+            "status": 1,
+            "feature": {
+              "id": 32,
+              "featureName": "Caleido Smart Lock",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 4
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 4,
+        "name": "Premium",
+        "createdOn": "2019-12-17T14:09:55.000Z",
+        "statusID": 1,
+        "isSubPackage": 1,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "7",
+            "packageID": 4,
+            "featureID": 23,
+            "createdBy": "1",
+            "createdOn": "2019-12-17T14:09:53.000Z",
+            "status": 1,
+            "feature": {
+              "id": 23,
+              "featureName": "Electronic Safe / Locker",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "8",
+            "packageID": 4,
+            "featureID": 27,
+            "createdBy": "1",
+            "createdOn": "2019-12-17T14:09:53.000Z",
+            "status": 1,
+            "feature": {
+              "id": 27,
+              "featureName": "Iron",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "9",
+            "packageID": 4,
+            "featureID": 28,
+            "createdBy": "1",
+            "createdOn": "2019-12-17T14:09:53.000Z",
+            "status": 1,
+            "feature": {
+              "id": 28,
+              "featureName": "Hair dryer",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "10",
+            "packageID": 4,
+            "featureID": 31,
+            "createdBy": "1",
+            "createdOn": "2019-12-17T14:09:53.000Z",
+            "status": 1,
+            "feature": {
+              "id": 31,
+              "featureName": "Caleido - Air Quality Control",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 2
+            }
+          },
+          {
+            "id": "11",
+            "packageID": 4,
+            "featureID": 32,
+            "createdBy": "1",
+            "createdOn": "2019-12-17T14:09:53.000Z",
+            "status": 1,
+            "feature": {
+              "id": 32,
+              "featureName": "Caleido Smart Lock",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 4
+            }
+          },
+          {
+            "id": "12",
+            "packageID": 4,
+            "featureID": 36,
+            "createdBy": "1",
+            "createdOn": "2019-12-17T14:09:53.000Z",
+            "status": 1,
+            "feature": {
+              "id": 36,
+              "featureName": "Doctor On Call",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 3,
+        "name": "Golden Smart Pack",
+        "createdOn": "2019-12-17T14:09:40.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 6,
+          "name": "Restaurant",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "6",
+            "packageID": 3,
+            "featureID": 32,
+            "createdBy": "1",
+            "createdOn": "2019-12-17T14:09:39.000Z",
+            "status": 1,
+            "feature": {
+              "id": 32,
+              "featureName": "Caleido Smart Lock",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 4
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 2,
+        "name": "Smart pack",
+        "createdOn": "2019-12-17T13:45:05.000Z",
+        "statusID": 1,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [
+          {
+            "id": "3",
+            "packageID": 2,
+            "featureID": 23,
+            "createdBy": "1",
+            "createdOn": "2019-12-17T13:45:05.000Z",
+            "status": 1,
+            "feature": {
+              "id": 23,
+              "featureName": "Electronic Safe / Locker",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "4",
+            "packageID": 2,
+            "featureID": 28,
+            "createdBy": "1",
+            "createdOn": "2019-12-17T13:45:05.000Z",
+            "status": 1,
+            "feature": {
+              "id": 28,
+              "featureName": "Hair dryer",
+              "status": 1,
+              "isSmartFeature": null,
+              "deviceTypeID": null
+            }
+          },
+          {
+            "id": "5",
+            "packageID": 2,
+            "featureID": 32,
+            "createdBy": "1",
+            "createdOn": "2019-12-17T13:45:05.000Z",
+            "status": 1,
+            "feature": {
+              "id": 32,
+              "featureName": "Caleido Smart Lock",
+              "status": 1,
+              "isSmartFeature": true,
+              "deviceTypeID": 4
+            }
+          }
+        ],
+        "childPackages": []
+      },
+      {
+        "id": 1,
+        "name": "Smart-1",
+        "createdOn": "2019-12-17T13:33:15.000Z",
+        "statusID": 0,
+        "isSubPackage": 0,
+        "attachment": null,
+        "amenityType": {
+          "id": 1,
+          "name": "Guest Room",
+          "status": 1
+        },
+        "packageFeatures": [],
+        "childPackages": []
+      }
+    ],
+    "total": 67
+  },
+  "status": "success"
+}

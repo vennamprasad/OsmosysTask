@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-->>>>>>>>>>>>>>> Light base colors <<<<<<<<<<<<<<<-->
-    <color name="colorPrimary">#FFFFFF</color>
-    <color name="colorPrimaryDark">#F3F4F6</color>
-    <color name="colorAccent">#0280FF</color>
+    <color name="colorPrimary">#FFD86065</color>
+    <color name="colorPrimaryDark">#FFE05850</color>
+    <color name="colorAccent">#FF404070</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="gray_light">#FF909090</color>
+    <color name="white">#FFFFFF</color>
+    <color name="milk_white">#FFE8F0F0</color>
+    <color name="teal">#FF88B8B8</color>
+    <color name="black">#000000</color>
+
+    <color name="colorRipple">#256DB432</color>
+    <color name="red_500">#f44336</color>
     <color name="primaryTextColor">#000000</color>
     <color name="secondaryTextColor">#424343</color>
     <color name="windowColor">#FFFFFF</color>
-    <color name="tabSelectedColor">#0280FF</color>
+    <color name="tabSelectedColor">@color/colorPrimary</color>
     <color name="tabUnselectedColor">#424343</color>
     <color name="navTabPressed">#000</color>
     <color name="statusBarColor">#F3F4F6</color>
@@ -15,29 +23,23 @@
     <color name="backgroundColor">#FAFAFA</color>
     <color name="cardDialogColor">#FFFFFF</color>
     <color name="toastSnackBarColor">#212121</color>
+    <color name="colorGreen">#4CAF50</color>
+    <color name="colorRed">#f44336</color>
+    <color name="colorOrange">#FF9800</color>
+    <color name="sampleDark">#1B5E20</color>
+    <color name="sampleLight">#388E3C</color>
+    <color name="sampleLighter">#4CAF50</color>
+    <color name="dialogAccent">#795548</color>
 
-    <!-->>>>>>>>>>>>>>> Dark base colors <<<<<<<<<<<<<<<-->
-    <color name="colorPrimary_night">#000000</color> <!-- #121212 -->
-    <color name="colorPrimaryDark_night">#212121</color> <!-- #1F1F1F -->
-    <color name="colorAccent_night">#0280FF</color>
-    <color name="primaryTextColor_night">#FFFFFF</color>
-    <color name="secondaryTextColor_night">#B3FFFFFF</color>
-    <color name="windowColor_night">#1F1F1F</color>
-    <color name="tabSelectedColor_night">#0280FF</color>
-    <color name="tabUnselectedColor_night">#B3FFFFFF</color>
-    <color name="navTabPressed_night">#FFF</color>
-    <color name="statusBarColor_night">#212121</color>
-    <color name="appBarColor_night">#212121</color>
-    <color name="backgroundColor_night">#303030</color>
-    <color name="cardDialogColor_night">#383838</color>
-    <color name="toastSnackBarColor_night">#FFF</color>
 
-    <!-- Others -->
-    <color name="colorRipple">#256DB432</color>
-    <color name="black">#000000</color>
-    <color name="white">#FFFFFF</color>
-
-    <color name="red_500">#f44336</color>
+    <!--custom colors-->
+    <color name="white_light">#FFEAEFF5</color>
+    <color name="blue">#FF3410D9</color>
+    <color name="gray">#FFA1A0B5</color>
+    <color name="violet">#FF6040B9</color>
+    <color name="dark_gray">#FF4B4E61</color>
+    <color name="black_d">#FF0E0D0D</color>
+    <color name="violet_lite">#FF8671AE</color>
 
     <!-- COLOR For Rebuild -->
     <color name="overlay_dark_10">#1A000000</color>
@@ -59,8 +61,4 @@
     <color name="overlay_light_70">#B3FFFFFF</color>
     <color name="overlay_light_80">#CCFFFFFF</color>
     <color name="overlay_light_90">#E6FFFFFF</color>
-
-    <color name="colorGreen">#4CAF50</color>
-    <color name="colorRed">#f44336</color>
-    <color name="colorOrange">#FF9800</color>
 </resources>

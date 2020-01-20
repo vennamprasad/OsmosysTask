@@ -1,4 +1,4 @@
-package com.pantoz.pantoztask
+package com.osmosys.task
 
 import org.junit.Test
 
