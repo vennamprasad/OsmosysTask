@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PantozTask</string>
+    <string name="app_name">ExpandListDemo</string>
     <string name="learn_forward">Learn Forward</string>
     <string name="group_text">Group Text</string>
     <string name="child_title">Child Title</string>
