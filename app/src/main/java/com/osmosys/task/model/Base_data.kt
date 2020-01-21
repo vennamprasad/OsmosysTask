@@ -1,9 +1,9 @@
 import com.google.gson.annotations.SerializedName
 
 
-class Base() {
+class Base_data() {
     @SerializedName("data")
-    val data: Sample_Data? = null
+    val data: Sample_data? = null
     @SerializedName("status")
     val status: String = ""
 }
