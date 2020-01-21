@@ -6,10 +6,15 @@ import android.os.Bundle
 import android.os.CountDownTimer
 import android.view.View
 import android.view.View.VISIBLE
+import android.view.inputmethod.EditorInfo
+import android.widget.TextView.OnEditorActionListener
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.osmosys.task.R
+import com.osmosys.task.utils.Common.Companion.EMAIL_ADDRESS
 import kotlinx.android.synthetic.main.activity_sign_in.*
+import java.util.regex.Pattern
+
 
 class SignInActivity : AppCompatActivity() {
 
@@ -32,6 +37,14 @@ class SignInActivity : AppCompatActivity() {
 
             override fun onTick(p0: Long) {}
         }.start()
+
+        ePassword.setOnEditorActionListener(OnEditorActionListener { v, actionId, event ->
+            if (actionId == EditorInfo.IME_ACTION_DONE) {
+                logIn(v)
+                return@OnEditorActionListener true
+            }
+            false
+        })
     }
 
     private fun startAnimation() {
@@ -59,10 +72,33 @@ class SignInActivity : AppCompatActivity() {
     }
 
     fun signUp(view: View) {
-        startActivity(Intent(this, SplashActivity::class.java))
+        startActivity(Intent(this, SignUpActivity::class.java))
     }
 
     fun skip(view: View) {
         startActivity(Intent(this, MainActivity::class.java))
+    }
+
+    fun logIn(view: View) {
+        if(validate())
+        startActivity(Intent(this, MainActivity::class.java))
+    }
+    fun validate(): Boolean {
+        var valid = true
+        val email: String = eloginId.text.toString()
+        val password: String = ePassword.text.toString()
+        if (email.isEmpty() || !EMAIL_ADDRESS.matcher(email).matches()) {
+            eloginId.error = "enter a valid email address"
+            valid = false
+        } else {
+            eloginId.error = null
+        }
+        if (password.isEmpty() || password.length < 4 || password.length > 10) {
+            ePassword.error = "between 4 and 10 alphanumeric characters"
+            valid = false
+        } else {
+            ePassword.error = null
+        }
+        return valid
     }
 }

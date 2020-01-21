@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/rootView"
     android:layout_width="match_parent"
@@ -23,10 +24,12 @@
         android:layout_below="@+id/bookIconImageView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
+        android:includeFontPadding="true"
         android:text="@string/learn_forward"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:fontFamily="@font/comfortaa_bold" />
 
     <androidx.core.widget.ContentLoadingProgressBar
         android:id="@+id/loadingProgressBar"
@@ -93,6 +96,7 @@
                     android:inputType="textEmailAddress"
                     android:paddingStart="15dp"
                     android:paddingEnd="15dp"
+                    android:imeOptions="actionNext"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white"
                     android:textCursorDrawable="@color/white"
@@ -120,6 +124,7 @@
                     android:inputType="textPassword"
                     android:paddingStart="15dp"
                     android:paddingEnd="15dp"
+                    android:imeOptions="actionDone"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white"
                     android:textCursorDrawable="@color/white"
@@ -133,7 +138,7 @@
                     android:layout_weight="1"
                     android:gravity="center|end"
                     android:paddingEnd="15dp"
-                    android:text="Forgot Password ?"
+                    android:text="@string/forgot_password"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white"
                     android:textSize="16sp" />
@@ -158,6 +163,7 @@
                 android:layout_marginEnd="10dp"
                 android:background="@drawable/circular_login"
                 android:text="@string/skip"
+                android:onClick="skip"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
                 android:textSize="16sp" />
@@ -169,6 +175,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/corner_color"
                 android:text="@string/login"
+                android:onClick="logIn"
                 android:layout_marginStart="10dp"
                 android:textAllCaps="false"
                 android:textColor="@color/white"

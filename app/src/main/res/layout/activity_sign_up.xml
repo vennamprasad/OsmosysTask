@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/afterAnimationView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginStart="20dp"
     android:layout_marginEnd="20dp"
     android:orientation="vertical"
-    android:visibility="visible">
+    tools:context=".view.SignUpActivity">
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/WelcomeTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/welcome_back"
+        android:layout_alignParentTop="true"
         android:layout_marginTop="56dp"
+        android:text="@string/join_with_us"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="25sp"
         android:textStyle="bold" />
@@ -22,34 +24,90 @@
         android:id="@+id/readItTogetherTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="10dp"
         android:layout_below="@+id/WelcomeTextView"
         android:layout_marginTop="10dp"
-        android:text="@string/enter_your_login_details"
+        android:paddingBottom="10dp"
+        android:text="@string/all_details_required"
         android:textColor="@color/colorAccent"
         android:textSize="16sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="top"
         android:layout_below="@+id/readItTogetherTextView"
+        android:gravity="top"
         android:orientation="vertical">
 
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:background="@drawable/circularbordersolidtop"
             android:gravity="center"
-            android:layout_marginTop="10dp"
+            android:orientation="vertical"
             android:padding="10dp">
 
             <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/et_fName"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@null"
-                android:hint="@string/email"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,. "
+                android:hint="@string/first_name"
+                android:importantForAutofill="yes"
+                android:inputType="textPersonName"
+                android:maxLength="18"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textCursorDrawable="@color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/circularbordersolidbottom"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/et_lName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@null"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,. "
+                android:hint="@string/last_name"
+                android:importantForAutofill="yes"
+                android:inputType="textPersonName"
+                android:maxLength="18"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textCursorDrawable="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/circularbordersolidtop"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/et_eMail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@null"
+                android:hint="@string/e_mail"
                 android:importantForAutofill="yes"
                 android:inputType="textEmailAddress"
                 android:paddingStart="15dp"
@@ -60,20 +118,21 @@
                 android:textSize="16sp" />
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="1dp"
             android:background="@drawable/circularbordersolidbottom"
-            android:orientation="horizontal"
+            android:orientation="vertical"
             android:padding="10dp">
 
             <androidx.appcompat.widget.AppCompatEditText
-                android:id="@+id/ePassword"
+                android:id="@+id/et_Password"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@null"
-                android:hint="@string/password"
+                android:hint="PASSWORD"
                 android:importantForAutofill="no"
                 android:inputType="textPassword"
                 android:paddingStart="15dp"
@@ -83,42 +142,22 @@
                 android:textCursorDrawable="@color/white"
                 android:textSize="16sp" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:background="@drawable/circularbordersolidtop"
             android:gravity="center"
-            android:layout_marginTop="10dp"
+            android:orientation="vertical"
             android:padding="10dp">
 
             <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/et_cnfmPassword"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@null"
-                android:hint="@string/email"
-                android:importantForAutofill="yes"
-                android:inputType="textEmailAddress"
-                android:paddingStart="15dp"
-                android:paddingEnd="15dp"
-                android:textColor="@color/white"
-                android:textColorHint="@color/white"
-                android:textCursorDrawable="@color/white"
-                android:textSize="16sp" />
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
-            android:background="@drawable/circularbordersolidbottom"
-            android:orientation="horizontal"
-            android:padding="10dp">
-
-            <androidx.appcompat.widget.AppCompatEditText
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="@null"
-                android:hint="@string/password"
+                android:hint="@string/confirm_password"
                 android:importantForAutofill="no"
                 android:inputType="textPassword"
                 android:paddingStart="15dp"
@@ -128,51 +167,76 @@
                 android:textCursorDrawable="@color/white"
                 android:textSize="16sp" />
         </LinearLayout>
-        <LinearLayout
+
+        <RelativeLayout
+            android:id="@+id/spinnerLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/circularbordersolidbottom"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <Spinner
+                android:id="@+id/sp_city"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:spinnerMode="dropdown" />
+
+            <ImageView
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:contentDescription="@string/spin"
+                android:src="@drawable/down_button_64px" />
+
+        </RelativeLayout>
+
+
+        <RadioGroup
+            android:id="@+id/rg_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:background="@drawable/circularbordersolidtop"
             android:gravity="center"
-            android:layout_marginTop="10dp"
-            android:padding="10dp">
-
-            <androidx.appcompat.widget.AppCompatEditText
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="@null"
-                android:hint="@string/email"
-                android:importantForAutofill="yes"
-                android:inputType="textEmailAddress"
-                android:paddingStart="15dp"
-                android:paddingEnd="15dp"
-                android:textColor="@color/white"
-                android:textColorHint="@color/white"
-                android:textCursorDrawable="@color/white"
-                android:textSize="16sp" />
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
-            android:background="@drawable/circularbordersolidbottom"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
             android:orientation="horizontal"
             android:padding="10dp">
 
-            <androidx.appcompat.widget.AppCompatEditText
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="@null"
-                android:hint="@string/password"
-                android:importantForAutofill="no"
-                android:inputType="textPassword"
-                android:paddingStart="15dp"
-                android:paddingEnd="15dp"
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_weight="1"
                 android:textColor="@color/white"
-                android:textColorHint="@color/white"
-                android:textCursorDrawable="@color/white"
-                android:textSize="16sp" />
-        </LinearLayout>
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:checked="true"
+                android:buttonTint="@color/white"
+                android:text="MALE" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:checked="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/white"
+                android:text="FEMALE" />
+
+        </RadioGroup>
+
+
     </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
@@ -182,8 +246,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="10dp"
         android:background="@drawable/circular_sign_up"
-        android:onClick="signUp"
-        android:text="@string/sign_up"
+        android:onClick="submit"
+        android:text="@string/submit"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="16sp" />

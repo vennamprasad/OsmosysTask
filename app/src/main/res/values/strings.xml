@@ -12,6 +12,13 @@
     <string name="sign_up">Sign up</string>
     <string name="forget_password">Forget Password.?</string>
     <string name="enter_your_login_details">Enter your login details</string>
+    <string name="first_name">FIRST NAME</string>
+    <string name="last_name">LAST NAME</string>
+    <string name="join_with_us">Join With Us</string>
+    <string name="all_details_required">All Details Required.</string>
+    <string name="submit">Submit</string>
     <string name="e_mail">E-MAIL</string>
-    <string name="your_e_mail_goes_here">Your E-mail goes here</string>
+    <string name="confirm_password">CONFIRM PASSWORD</string>
+    <string name="spin">spin</string>
+    <string name="forgot_password">Forgot Password ?</string>
 </resources>
