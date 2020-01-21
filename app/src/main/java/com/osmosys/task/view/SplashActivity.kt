@@ -14,7 +14,7 @@ class SplashActivity : AppCompatActivity() {
     private var mDelayHandler: Handler? = null
     private val SPLASH_DELAY: Long = 3000 //3 seconds
     internal val mRunnable: Runnable = Runnable {
-        val intent = Intent(applicationContext, MainActivity::class.java)
+        val intent = Intent(applicationContext, SignInActivity::class.java)
         startActivity(intent)
         finish()
     }

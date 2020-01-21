@@ -3,4 +3,15 @@
     <string name="learn_forward">Learn Forward</string>
     <string name="group_text">Group Text</string>
     <string name="child_title">Child Title</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="read_it_together">Read it together</string>
+    <string name="skip">Skip</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="forget_password">Forget Password.?</string>
+    <string name="enter_your_login_details">Enter your login details</string>
+    <string name="e_mail">E-MAIL</string>
+    <string name="your_e_mail_goes_here">Your E-mail goes here</string>
 </resources>
