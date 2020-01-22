@@ -25,12 +25,7 @@ class SignInActivity : AppCompatActivity() {
             override fun onFinish() {
                 bookITextView.visibility = View.GONE
                 loadingProgressBar.visibility = View.GONE
-                rootView.setBackgroundColor(
-                    ContextCompat.getColor(
-                        applicationContext,
-                        R.color.backgroundColor
-                    )
-                )
+                rootView.setBackgroundColor(ContextCompat.getColor(applicationContext, R.color.backgroundColor))
                 bookIconImageView.setImageResource(R.drawable.exp_l_ico)
                 startAnimation()
             }
@@ -49,12 +44,11 @@ class SignInActivity : AppCompatActivity() {
 
     private fun startAnimation() {
         bookIconImageView.animate().apply {
-            x(50f)
-            y(200f)
+            x(56f)
+            y(56f)
             duration = 1000
         }.setListener(object : Animator.AnimatorListener {
             override fun onAnimationRepeat(p0: Animator?) {
-
             }
 
             override fun onAnimationEnd(p0: Animator?) {
@@ -62,11 +56,9 @@ class SignInActivity : AppCompatActivity() {
             }
 
             override fun onAnimationCancel(p0: Animator?) {
-
             }
 
             override fun onAnimationStart(p0: Animator?) {
-
             }
         })
     }

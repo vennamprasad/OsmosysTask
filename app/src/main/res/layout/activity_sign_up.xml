@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="20dp"
         android:text="@string/join_with_us"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="25sp"
@@ -51,13 +51,14 @@
             <androidx.appcompat.widget.AppCompatEditText
                 android:id="@+id/et_fName"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
                 android:background="@null"
                 android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,. "
                 android:hint="@string/first_name"
+                android:imeOptions="actionNext"
                 android:importantForAutofill="yes"
                 android:inputType="textPersonName"
-                android:maxLength="18"
+                android:maxLength="11"
                 android:paddingStart="15dp"
                 android:paddingEnd="15dp"
                 android:textColor="@color/white"
@@ -78,13 +79,14 @@
             <androidx.appcompat.widget.AppCompatEditText
                 android:id="@+id/et_lName"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
                 android:background="@null"
                 android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,. "
                 android:hint="@string/last_name"
+                android:imeOptions="actionNext"
                 android:importantForAutofill="yes"
                 android:inputType="textPersonName"
-                android:maxLength="18"
+                android:maxLength="11"
                 android:paddingStart="15dp"
                 android:paddingEnd="15dp"
                 android:textColor="@color/white"
@@ -105,9 +107,10 @@
             <androidx.appcompat.widget.AppCompatEditText
                 android:id="@+id/et_eMail"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
                 android:background="@null"
                 android:hint="@string/e_mail"
+                android:imeOptions="actionNext"
                 android:importantForAutofill="yes"
                 android:inputType="textEmailAddress"
                 android:paddingStart="15dp"
@@ -130,9 +133,10 @@
             <androidx.appcompat.widget.AppCompatEditText
                 android:id="@+id/et_Password"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
                 android:background="@null"
                 android:hint="PASSWORD"
+                android:imeOptions="actionNext"
                 android:importantForAutofill="no"
                 android:inputType="textPassword"
                 android:paddingStart="15dp"
@@ -155,9 +159,10 @@
             <androidx.appcompat.widget.AppCompatEditText
                 android:id="@+id/et_cnfmPassword"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
                 android:background="@null"
                 android:hint="@string/confirm_password"
+                android:imeOptions="actionNext"
                 android:importantForAutofill="no"
                 android:inputType="textPassword"
                 android:paddingStart="15dp"
@@ -181,13 +186,13 @@
             <Spinner
                 android:id="@+id/sp_city"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
                 android:layout_centerVertical="true"
                 android:layout_gravity="center"
-                android:paddingStart="15dp"
-                android:paddingEnd="15dp"
                 android:background="@android:color/transparent"
                 android:gravity="center"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
                 android:spinnerMode="dropdown" />
 
             <ImageView
@@ -209,30 +214,30 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/circularbordersolidtop"
             android:gravity="center"
-            android:paddingStart="15dp"
-            android:paddingEnd="15dp"
             android:orientation="horizontal"
-            android:padding="10dp">
+            android:padding="10dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp">
 
             <RadioButton
                 android:id="@+id/male"
-                android:layout_weight="1"
-                android:textColor="@color/white"
                 android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:checked="true"
+                android:layout_height="40dp"
+                android:layout_weight="1"
                 android:buttonTint="@color/white"
-                android:text="MALE" />
+                android:checked="true"
+                android:text="MALE"
+                android:textColor="@color/white" />
 
             <RadioButton
                 android:id="@+id/female"
-                android:layout_weight="1"
-                android:textColor="@color/white"
-                android:checked="false"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:buttonTint="@color/white"
-                android:text="FEMALE" />
+                android:checked="false"
+                android:text="FEMALE"
+                android:textColor="@color/white" />
 
         </RadioGroup>
 
@@ -244,7 +249,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/circular_sign_up"
         android:onClick="submit"
         android:text="@string/submit"

@@ -32,49 +32,34 @@ class MainActivity : AppCompatActivity() {
             val width = metrics.widthPixels
             exp_list.setIndicatorBounds(width - GetPixelFromDips(50F), width - GetPixelFromDips(10F));*/
             prepareListData()
-            exp_list.setOnGroupClickListener { parent, v, groupPosition, id ->
-                false
-            }
+            exp_list.setOnGroupClickListener { parent, v, groupPosition, id -> false }
             exp_list.setOnGroupExpandListener { groupPosition ->
                 try {
                     if (lastExpandedPosition != -1
                         && groupPosition != lastExpandedPosition
                     ) {
-                        exp_list.collapseGroup(lastExpandedPosition);
+                        exp_list.collapseGroup(lastExpandedPosition)
                     }
-                    lastExpandedPosition = groupPosition;
-                    Toast.makeText(
-                        applicationContext, listDataHeader?.get(groupPosition)?.name +
-                                " Expanded", Toast.LENGTH_SHORT
-                    ).show()
+                    lastExpandedPosition = groupPosition
+                    Toast.makeText(applicationContext, listDataHeader?.get(groupPosition)?.name + " Expanded", Toast.LENGTH_SHORT).show()
 
                 } catch (e: Exception) {
-                    Log.e("setOnGExpandListener", e.message)
+                    Log.e("setOnGroupExpand", e.toString())
                 }
             }
             exp_list.setOnGroupCollapseListener { groupPosition ->
                 try {
-                    Toast.makeText(
-                        applicationContext, (listDataHeader?.get(groupPosition))?.name
-                                + " Collapsed", Toast.LENGTH_SHORT
-                    ).show()
+                    Toast.makeText(applicationContext, (listDataHeader?.get(groupPosition))?.name + " Collapsed", Toast.LENGTH_SHORT).show()
                 } catch (e: Exception) {
-                    Log.e("setOnGExpandListener", e.message)
+                    Log.e("setOnGroupCollapse", e.toString())
                 }
             }
             exp_list.setOnChildClickListener { parent, v, groupPosition, childPosition, id ->
-                // TODO Auto-generated method stub
-                Toast.makeText(
-                    applicationContext,
-                    """${listDataHeader?.get(groupPosition)} : ${listDataChild?.get(
-                        listDataHeader?.get(groupPosition)?.name
-                    )?.get(childPosition)}""",
-                    Toast.LENGTH_SHORT
-                ).show()
+                Toast.makeText(applicationContext, "${listDataHeader?.get(groupPosition)!!.name} : ${listDataChild?.get(listDataHeader?.get(groupPosition)?.name)?.get(childPosition)!!.feature!!.featureName}", Toast.LENGTH_SHORT).show()
                 false
             }
         } catch (e: Exception) {
-            Log.e("MAOnCreate():-", e.message)
+            Log.e("setOnChild-", e.toString())
         }
     }
 
@@ -89,7 +74,7 @@ class MainActivity : AppCompatActivity() {
      */
     private fun prepareListData() {
         try {
-            listDataHeader = ArrayList<Records_data>()
+            listDataHeader = ArrayList()
             listDataChild = HashMap()
             //access asset
             val am: AssetManager = applicationContext.getAssets()
@@ -106,7 +91,7 @@ class MainActivity : AppCompatActivity() {
             listAdapter = ExpandableListAdapter(this, listDataHeader!!, listDataChild!!)
             exp_list.setAdapter(listAdapter)
         } catch (e: Exception) {
-            Log.e("prepareListData", e.message)
+            Log.e("prepareListData", e.toString())
         }
     }
 }
